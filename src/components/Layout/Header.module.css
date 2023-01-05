@@ -1,0 +1,39 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: rem;
+    opacity: 0.88;
+    background-color: #414344;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 50rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .main-image img {
+    width: 105%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateZ(-6deg) translateY(-7rem) translateX(-3rem);
+  }
+
+  .logo img {
+    width: 100%;
+    height: 8rem;
+    z-index: 0;
+    overflow: hidden;
+    object-fit: cover;
+
+  }
